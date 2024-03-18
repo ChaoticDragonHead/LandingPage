@@ -1,0 +1,50 @@
+/* CSS Variables */
+:root {
+    --normal-font: 400;
+    --bold-font: 600;
+    --bolder-font: 900;
+    --line-height: 1.7rem;
+    --transition: 0.4s ease-in;
+    --primary-color: #137751;
+  }
+
+/* Resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: var(--transition);
+  }
+
+  ul li {
+    list-style-type: none;
+    padding: 1.05rem;
+  }
+
+  a {
+    text-decoration: none;
+    color: var(--primary-color);
+  }
+
+/*Navbar*/
+.navItems {
+    display: flex;
+    align-items: center;
+
+    color: var(--primary-color);
+}
+
+
+nav{
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    box-shadow: 2px 3px 2px #f1f1f1;
+  
+    position: sticky;
+      top: 0;
+      left: 0;
+      z-index: 1;
+}
